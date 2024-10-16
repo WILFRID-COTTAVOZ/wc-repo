@@ -1,0 +1,14 @@
+Upstream-Status: Pending
+diff -ruN base-files-origin/profile base-files-modified/profile
+--- base-files-origin/profile	2024-08-27 14:08:33.938560170 +0200
++++ base-files-modified/profile	2024-08-27 14:09:35.885470465 +0200
+@@ -66,7 +66,7 @@
+
+ fi
+ 
+ if [ -z "$EDITOR" ]; then
+-	EDITOR="vi"			# needed for packages like cron, git-commit
++	EDITOR="nano"			# needed for packages like cron, git-commit
+ fi
+ 
+ export PATH PS1 OPIEDIR QPEDIR QTDIR EDITOR TERM
